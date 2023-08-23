@@ -94,7 +94,7 @@ obj.on('re-loading',function({status,view}){
    
 });
 
-on method return status and view : ```status``` (start and end), view (mobile or desktop)
+on method return status and view : status (start and end), view (mobile or desktop)
 ```
 
-**Live Demo [https://www.indiatoday.in/interactive/immersive/delhi-air-quality-smog-capital/]**
+**Live Demo [https://www.indiatoday.in/interactive/immersive/chandrayaan-3-landing-india-isro-historic-moment-on-the-moon/]**
