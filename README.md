@@ -85,6 +85,10 @@ desktop:{
     animationGap:30  # video animation space default is 60px
 }
 
+## isDyanamicId
+if you want set dyanamic id for images,  pass ```isDyanamicId:true``` and ```dyanamicIDPrefic:'moon_animation_id_'```
+
+
 ```
 ## ON method 
 if you want to check is reloading start. this method work like render method but this reurn one extra parameter ```view```, current view desktop or mobile
