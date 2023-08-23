@@ -86,7 +86,8 @@ desktop:{
 }
 
 ```
-## ON method if you want to check is reloading start. this method work like render method but this reurn one extra method view, current view desktop or mobile
+## ON method 
+if you want to check is reloading start. this method work like render method but this reurn one extra method view, current view desktop or mobile
 
 ```
 obj.on('re-loading',function({status,view}){
