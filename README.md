@@ -53,7 +53,7 @@ const options = {
    ```
 
 ## video.refresh();
-call obj.refresh(); on hard refresh.
+call obj.refresh(); for hard refresh.
 
 ## options {}
 
