@@ -23,6 +23,9 @@ const options = {
     live_url:'assest/img/',
     responsiveStart:767,
     imagePreLoader:'#image_pre_loader',
+    type:'.png',
+    rootMargin:'0%  0px -100% 0px',
+    root:null,
     desktop:{
         folderName:'fire-desktop',
         image_Prefix:'video',
