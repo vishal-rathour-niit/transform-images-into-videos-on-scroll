@@ -93,17 +93,17 @@ if you want set dyanamic id for images,  pass ```isDyanamicId:true``` and ```dya
 if you want to add text data between images.
 
 ```
-contentSetHeight:500,
+contentSetHeight:500,  // size for text container
 contentData:[
 {
-        'key':'5',
-        'mobile_key':'6',
-        content:'<p>demo 1</p>'
+        "key":'5',  // for desktop
+        "mobile_key":'6',  // for mobile 
+        "content":'<p>demo 1</p>'
     },
     {
         "key":"20",
         "mobile_key":'27',
-        content:'<p class="caps">demo 2<p>'
+        "content":'<p class="caps">demo 2<p>'
     },
 ],
 ```
