@@ -85,11 +85,29 @@ desktop:{
     animationGap:30  # video animation space default is 60px
 }
 
+```
 ## isDyanamicId
 if you want set dyanamic id for images,  pass ```isDyanamicId:true``` and ```dyanamicIDPrefic:'moon_animation_id_'```
 
+## contentData
+if you want to add text data between images.
 
 ```
+contentSetHeight:500,
+contentData:[
+{
+        'key':'5',
+        'mobile_key':'6',
+        content:'<p>demo 1</p>'
+    },
+    {
+        "key":"20",
+        "mobile_key":'27',
+        content:'<p class="caps">demo 2<p>'
+    },
+],
+```
+
 ## ON method 
 if you want to check is reloading start. this method work like render method but this reurn one extra parameter ```view```, current view desktop or mobile
 
