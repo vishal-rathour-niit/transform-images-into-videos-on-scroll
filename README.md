@@ -50,7 +50,7 @@ const options = {
    ```
 
 ## video.refresh();
-call obj.refresh(); on window resize for rerendiring.
+call obj.refresh(); on hard refresh.
 
 ## options {}
 
@@ -60,6 +60,9 @@ canvasID # canvas id or class of HTML canvas
 live_url # image URL 
 responsiveStart # responsive start position default is 767px
 imagePreLoader  # image pre loader container for loading images
+type:'.png' #  pass image type default is '.jpg'
+rootMargin:'0%  0px -100% 0px'  # set animaton start offset default is '0px'
+root:null  #  pass root as html element defalut is body, if you pass null by defalut set root to html body
 desktop:{}  # for desktop rendering
 mobile:{} # for mobile rendering call if you pass responsive value larger than 0px
 
@@ -79,6 +82,15 @@ desktop:{
     animationGap:30  # video animation space default is 60px
 }
 
+```
+## ON method if you want to check is reloading start. this method work like render method but this reurn one extra method view, current view desktop or mobile
+
+```
+obj.on('re-loading',function({status,view}){
+   
+});
+
+on method return status and view : status (start and end), view (mobile or desktop)
 ```
 
 **Live Demo [https://www.indiatoday.in/interactive/immersive/delhi-air-quality-smog-capital/]**
