@@ -87,7 +87,7 @@ desktop:{
 
 ```
 ## isDyanamicId
-if you want set dyanamic id for images,  pass ```isDyanamicId:true``` and ```dyanamicIDPrefic:'moon_animation_id_'```
+if you want to set dyanamic id for images,  pass ```isDyanamicId:true``` and ```dyanamicIDPrefic:'moon_animation_id_'```
 
 ## contentData
 if you want to add text data between images.
@@ -109,7 +109,7 @@ contentData:[
 ```
 
 ## ON method 
-if you want to check is reloading start. this method work like render method but this reurn one extra parameter ```view```, current view desktop or mobile
+if you want to check is reloading start. this method work like render method but this return one extra parameter ```view```, current view desktop or mobile
 
 ```
 obj.on('re-loading',function({status,view}){
