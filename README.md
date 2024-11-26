@@ -1,4 +1,4 @@
-# Dynamic Video Creation: Transform Images into Videos on Scroll
+# Dynamic Video Creation: Transform Images into Videos on browser Scroll
 
 Library to convert a series of images into a video and play it on window scroll, either as a single video or multiple.
 
