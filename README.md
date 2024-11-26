@@ -4,6 +4,11 @@ Library to convert a series of images into a video and play it on window scroll,
 
  **Note: All rendered images (for desktop and mobile) should be named like smog (1).jpg, smog (2).jpg, and so on.**
 
+# Live Demo
+1:- https://www.indiatoday.in/interactive/immersive/chandrayaan-3-landing-india-isro-historic-moment-on-the-moon/
+2:- https://www.indiatoday.in/interactive/immersive/ram-mandir-darshan-ramjanmabhoomi-ayodhya-2024-travel-guide
+3:- https://www.indiatoday.in/interactive/immersive/delhi-air-quality-smog-capital/
+
 ## HTML
 
 ```
