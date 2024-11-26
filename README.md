@@ -4,8 +4,29 @@ Library to convert a series of images into a video and play it on window scroll,
 
  **Note: All rendered images (for desktop and mobile) should be named like smog (1).jpg, smog (2).jpg, and so on.**
 
+# install by NPM/Yarn
+
+NPM
+```
+npm i images-to-video-convert-on-window-scroll
+```
+YARN
+```
+yarn add images-to-video-convert-on-window-scroll
+```
+import
+
+```
+import videoMaker from 'images-to-video-convert-on-window-scroll'
+```
 
 ## HTML
+
+add js file 
+
+```
+ <script src="lib/videomaker.min.js"></script>
+```
 
 ```
 <canvas id="video_pls"></canvas> #canvas
