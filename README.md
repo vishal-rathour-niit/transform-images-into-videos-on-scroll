@@ -1,8 +1,8 @@
-# video generator from images on window scroll
+# Dynamic Video Creation: Transform Images into Videos on Scroll
 
-library for to convert images series to video and play on window scroll, in single or multple. 
+Library to convert a series of images into a video and play it on window scroll, either as a single video or multiple.
 
- **Note :-all rendering image(desktop and mobile) should be name like - smog (1).jpg ,  smog (2).jpg**
+ **Note: All rendered images (for desktop and mobile) should be named like smog (1).jpg, smog (2).jpg, and so on.**
 
 ## HTML
 
@@ -87,10 +87,10 @@ desktop:{
 
 ```
 ## isDyanamicId
-if you want to set dyanamic id for images,  pass ```isDyanamicId:true``` and ```dyanamicIDPrefic:'moon_animation_id_'```
+If you want to set a dynamic ID for images, pass it as a parameter ```isDyanamicId:true``` and ```dyanamicIDPrefic:'smog_id_'```
 
 ## contentData
-if you want to add text data between images.
+If you want to add text data between images, include it accordingly.
 
 ```
 contentSetHeight:500,  // size for text container
@@ -109,13 +109,13 @@ contentData:[
 ```
 
 ## ON method 
-if you want to check is reloading start. this method work like render method but this return one extra parameter ```view```, current view desktop or mobile
+If you want to check if the reload has started, this method works like the render method but returns an extra parameter: ```view```, which specifies the current view (desktop or mobile).
 
 ```
 obj.on('re-loading',function({status,view}){
    
 });
 
-on method return status and view : status (start and end), view (mobile or desktop)
+The ```on``` method returns two parameters: status (either 'start' or 'end') and view (either 'mobile' or 'desktop').
 ```
 
