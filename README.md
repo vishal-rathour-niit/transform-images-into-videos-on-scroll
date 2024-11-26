@@ -117,8 +117,9 @@ obj.on('re-loading',function({status,view}){
    
 });
 
-The ```on``` method returns two parameters: status (either 'start' or 'end') and view (either 'mobile' or 'desktop').
 ```
+
+The ```on``` method returns two parameters: status (either 'start' or 'end') and view (either 'mobile' or 'desktop').
 
 # Live Demo
   1:- https://www.indiatoday.in/interactive/immersive/chandrayaan-3-landing-india-isro-historic-moment-on-the-moon/
