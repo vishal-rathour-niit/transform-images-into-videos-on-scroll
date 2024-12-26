@@ -48,6 +48,7 @@ const options = {
     type:'.png',
     rootMargin:'0%  0px -100% 0px',
     root:null,
+    autoRatio:true,
     desktop:{
         folderName:'fire-desktop',
         image_Prefix:'video',
@@ -90,7 +91,7 @@ rootMargin:'0%  0px -100% 0px'  # set animaton start offset default is '0px'
 root:null  #  pass root as html element defalut is body, if you pass null by defalut set root to html body
 desktop:{}  # for desktop rendering
 mobile:{} # for mobile rendering call if you pass responsive value larger than 0px
-
+autoRatio:true # auto image ratio based on window width
 desktop:{
     folderName:'fog',  # image folder name for desktop  {assest/img/`fog`}
     image_Prefix:'smog', # image prefix name image stating like `smog (1)`
